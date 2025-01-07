@@ -7297,12 +7297,6 @@
 		(uuid "46cf216b-6978-49af-b617-1371a375c6c1")
 	)
 	(junction
-		(at 364.49 196.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47480f4e-5317-459a-8a2e-1f3c77992ef0")
-	)
-	(junction
 		(at 234.95 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7361,6 +7355,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "613f3471-2ca2-4be7-b726-4cc061680992")
+	)
+	(junction
+		(at 364.49 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "638d965d-5148-4ab3-a7e9-29aebe80d62b")
 	)
 	(junction
 		(at 262.89 196.85)
@@ -13865,7 +13865,8 @@
 	)
 	(symbol
 		(lib_id "C10418:C_Pack04")
-		(at 290.83 191.77 180)
+		(at 290.83 191.77 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13873,7 +13874,7 @@
 		(dnp no)
 		(uuid "05047b4f-4613-49ea-ae44-886e4bd27328")
 		(property "Reference" "CN3"
-			(at 297.942 190.6016 0)
+			(at 297.942 192.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13882,7 +13883,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 297.942 192.913 0)
+			(at 297.942 190.627 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14762,7 +14763,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 314.96 182.88 270)
+		(at 314.96 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14770,7 +14771,7 @@
 		(dnp no)
 		(uuid "1675d032-8aa6-496c-a0aa-ebafe4b8f676")
 		(property "Reference" "RN4"
-			(at 314.96 172.2882 90)
+			(at 314.96 190.9318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14778,7 +14779,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 314.96 174.5996 90)
+			(at 314.96 188.6204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14786,7 +14787,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 314.96 189.865 90)
+			(at 314.96 173.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14795,7 +14796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 314.96 182.88 0)
+			(at 314.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14804,7 +14805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 182.88 0)
+			(at 314.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14813,7 +14814,7 @@
 			)
 		)
 		(property "LCSC" "C12001"
-			(at 314.96 182.88 0)
+			(at 314.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16261,7 +16262,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 281.94 182.88 270)
+		(at 281.94 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16269,7 +16270,7 @@
 		(dnp no)
 		(uuid "2fd82cd9-ac5a-4b25-8ae1-532c0112c430")
 		(property "Reference" "RN3"
-			(at 281.94 172.2882 90)
+			(at 281.94 190.9318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16277,7 +16278,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 281.94 174.5996 90)
+			(at 281.94 188.6204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16285,7 +16286,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 281.94 189.865 90)
+			(at 281.94 173.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16294,7 +16295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 281.94 182.88 0)
+			(at 281.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16303,7 +16304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 182.88 0)
+			(at 281.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16312,7 +16313,7 @@
 			)
 		)
 		(property "LCSC" "C12001"
-			(at 281.94 182.88 0)
+			(at 281.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16999,7 +17000,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 248.92 182.88 270)
+		(at 248.92 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17007,7 +17008,7 @@
 		(dnp no)
 		(uuid "4a06c793-ff87-4f42-9de1-fa1aca1a390d")
 		(property "Reference" "RN2"
-			(at 248.92 172.2882 90)
+			(at 248.92 190.9318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17015,7 +17016,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 248.92 174.5996 90)
+			(at 248.92 188.6204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17023,7 +17024,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 248.92 189.865 90)
+			(at 248.92 173.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17032,7 +17033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 182.88 0)
+			(at 248.92 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17041,7 +17042,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 182.88 0)
+			(at 248.92 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17050,7 +17051,7 @@
 			)
 		)
 		(property "LCSC" "C12001"
-			(at 248.92 182.88 0)
+			(at 248.92 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17973,7 +17974,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "63080084-7ee0-424c-8e3e-d0038c599b2a")
 		(property "Reference" "U15"
 			(at 152.0541 73.66 0)
@@ -18922,7 +18922,8 @@
 	)
 	(symbol
 		(lib_id "C10418:C_Pack04")
-		(at 257.81 191.77 180)
+		(at 257.81 191.77 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18930,7 +18931,7 @@
 		(dnp no)
 		(uuid "7400b125-7df0-433c-bb8a-7f2a5f98b58c")
 		(property "Reference" "CN2"
-			(at 264.922 190.6016 0)
+			(at 264.922 192.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18939,7 +18940,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 264.922 192.913 0)
+			(at 264.922 190.627 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19783,7 +19784,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 215.9 182.88 270)
+		(at 215.9 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19791,7 +19792,7 @@
 		(dnp no)
 		(uuid "884d81bc-fd69-408c-854e-495ddfe71b08")
 		(property "Reference" "RN1"
-			(at 215.9 172.2882 90)
+			(at 215.9 190.9318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19799,7 +19800,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 215.9 174.5996 90)
+			(at 215.9 188.6204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19807,7 +19808,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 215.9 189.865 90)
+			(at 215.9 173.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19816,7 +19817,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 182.88 0)
+			(at 215.9 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19825,7 +19826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 182.88 0)
+			(at 215.9 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19834,7 +19835,7 @@
 			)
 		)
 		(property "LCSC" "C12001"
-			(at 215.9 182.88 0)
+			(at 215.9 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19877,7 +19878,8 @@
 	)
 	(symbol
 		(lib_id "C10418:C_Pack04")
-		(at 323.85 191.77 180)
+		(at 323.85 191.77 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19885,7 +19887,7 @@
 		(dnp no)
 		(uuid "8a8069a8-294c-4d09-8c6c-5fa3bbfdd264")
 		(property "Reference" "CN4"
-			(at 330.962 190.6016 0)
+			(at 330.962 192.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19894,7 +19896,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 330.962 192.913 0)
+			(at 330.962 190.627 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20103,7 +20105,8 @@
 	)
 	(symbol
 		(lib_id "C10418:C_Pack04")
-		(at 359.41 191.77 180)
+		(at 359.41 191.77 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20111,7 +20114,7 @@
 		(dnp no)
 		(uuid "8cad4dce-19c7-425c-bab0-4ab9eb3dccbd")
 		(property "Reference" "CN5"
-			(at 366.522 190.6016 0)
+			(at 366.522 192.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20120,7 +20123,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 366.522 192.913 0)
+			(at 366.522 190.627 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20705,7 +20708,8 @@
 	)
 	(symbol
 		(lib_id "C10418:C_Pack04")
-		(at 224.79 191.77 180)
+		(at 224.79 191.77 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20713,7 +20717,7 @@
 		(dnp no)
 		(uuid "97df9ca8-a805-4067-af83-6cffa396f11e")
 		(property "Reference" "CN1"
-			(at 231.902 190.6016 0)
+			(at 231.902 192.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20722,7 +20726,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 231.902 192.913 0)
+			(at 231.902 190.627 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25191,7 +25195,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 350.52 182.88 270)
+		(at 350.52 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25199,7 +25203,7 @@
 		(dnp no)
 		(uuid "fc7e9848-1ff5-4109-aa7e-ccd8635a8eeb")
 		(property "Reference" "RN5"
-			(at 350.52 172.2882 90)
+			(at 350.52 190.9318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25207,7 +25211,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 350.52 174.5996 90)
+			(at 350.52 188.6204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25215,7 +25219,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 350.52 189.865 90)
+			(at 350.52 173.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25224,7 +25228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 350.52 182.88 0)
+			(at 350.52 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25233,7 +25237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 350.52 182.88 0)
+			(at 350.52 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25242,7 +25246,7 @@
 			)
 		)
 		(property "LCSC" "C12001"
-			(at 350.52 182.88 0)
+			(at 350.52 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
